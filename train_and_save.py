@@ -56,7 +56,7 @@ print(f"Selected features: {selected_features}")
 x_train_rfe = x_train[selected_features]
 
 
-BEST_POLY_DEGREE = 4 
+BEST_POLY_DEGREE = 3
 BEST_ALPHA = 0.01
 
 final_pipeline = Pipeline([
